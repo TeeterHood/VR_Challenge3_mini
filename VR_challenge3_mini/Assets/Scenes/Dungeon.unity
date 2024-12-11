@@ -5531,17 +5531,17 @@ MonoBehaviour:
       ConstrainAxis: 1
       AxisRange:
         Min: 1
-        Max: 1
+        Max: 3
     YAxis:
       ConstrainAxis: 1
       AxisRange:
         Min: 1
-        Max: 1
+        Max: 3
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
         Min: 1
-        Max: 1
+        Max: 3
 --- !u!114 &420361011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29154,6 +29154,14 @@ PrefabInstance:
     - target: {fileID: 3451118302482216456, guid: 1bf63c0899d49114e9e0a11b3dbb5187, type: 3}
       propertyPath: m_Convex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 1bf63c0899d49114e9e0a11b3dbb5187, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 1bf63c0899d49114e9e0a11b3dbb5187, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
