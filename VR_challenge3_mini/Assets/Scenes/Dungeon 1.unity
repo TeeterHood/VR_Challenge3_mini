@@ -32315,6 +32315,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 218dd31f4c623bf42b57997c3b9f32f8, type: 3}
+--- !u!4 &1000163590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
+  m_PrefabInstance: {fileID: 1352439473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1001013903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43832,25 +43837,25 @@ PrefabInstance:
       addedObject: {fileID: 1211582948}
     - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
       insertIndex: 8
-      addedObject: {fileID: 1413708133}
-    - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
-      insertIndex: 9
       addedObject: {fileID: 583091405}
     - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
-      insertIndex: 12
-      addedObject: {fileID: 995311905}
-    - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
-      insertIndex: 13
+      insertIndex: 11
       addedObject: {fileID: 1236974174}
     - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
-      insertIndex: 14
+      insertIndex: 12
       addedObject: {fileID: 1071199662}
     - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
-      insertIndex: 15
+      insertIndex: 13
       addedObject: {fileID: 579301776}
     - targetCorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
-      insertIndex: 16
+      insertIndex: 14
       addedObject: {fileID: 1091985844}
+    - targetCorrespondingSourceObject: {fileID: 41486635226796445, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 995311905}
+    - targetCorrespondingSourceObject: {fileID: 41486635226796445, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1413708133}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3687385345387943434, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
       insertIndex: -1
@@ -43894,7 +43899,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
 --- !u!4 &1352439474 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5892982402516357604, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
+  m_CorrespondingSourceObject: {fileID: 41486635226796445, guid: 7f92627ebb0fbbb42b4a4f69404b9741, type: 3}
   m_PrefabInstance: {fileID: 1352439473}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352439475 stripped
@@ -55383,7 +55388,7 @@ Transform:
   - {fileID: 2111729057}
   - {fileID: 1471659267}
   - {fileID: 9130174}
-  - {fileID: 1352439474}
+  - {fileID: 1000163590}
   - {fileID: 673462258}
   - {fileID: 2031918050}
   - {fileID: 1830931061}
