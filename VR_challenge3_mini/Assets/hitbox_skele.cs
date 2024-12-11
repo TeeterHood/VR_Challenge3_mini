@@ -7,15 +7,22 @@ public class EnemyHitbox : MonoBehaviour
     [SerializeField] private string objectTag = "PlayerProjectile"; // The tag of the object that can trigger the hitbox.
     [SerializeField] private bool destroyParent = true; // Whether to destroy the parent GameObject instead of just the hitbox.
     [SerializeField] private GameObject prefabToDestroy; // Optional prefab to destroy instead of parent or self.
+    [SerializeField] private GameObject particleEffectPrefab; // Particle effect to instantiate on destruction.
 
     private void OnTriggerEnter(Collider other)
     {
         // Check if the colliding object has the specified tag.
         if (other.CompareTag(objectTag))
         {
+            // Instantiate the particle effect at the current position and rotation.
+            if (particleEffectPrefab != null)
+            {
+                Instantiate(particleEffectPrefab, transform.position, Quaternion.identity);
+            }
+
+            // Destroy the specified prefab if assigned.
             if (prefabToDestroy != null)
             {
-                // Destroy the specified prefab.
                 Destroy(prefabToDestroy);
             }
             else if (destroyParent && transform.parent != null)
